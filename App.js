@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { SportSelection } from './components/SportSelection';
 import { BetSelection } from './components/BetSelection';
+import { DataTable } from './components/DataTable';
 import { Col } from 'react-bootstrap';
 import './App.css';
 
@@ -13,12 +14,15 @@ export default function App() {
     <>
       <SportSelection sport={sport} setSport={setSport}/>
       <BetSelection 
-        playerNames={['a','b','c']} 
-        propNames={['1','2','3']}
-        teamNames={['Cleveland Caveliers', 'Dallas Mavericks']}
+        playerNames={['Pascal Siakam']} 
+        propNames={['Pts']}
+        teamNames={['New York Knicks']}
         lineList={['2.5','3.5','4.5','5.5']}
         selections={selections} 
-        setSelections={setSelections}/>
+        setSelections={setSelections}
+      />
+      <DataTable selections={selections}/>
+
     </>
   );
 }

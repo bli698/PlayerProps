@@ -1,0 +1,137 @@
+#dataTable {
+    width: 40%;
+}
+
+.divider {
+    border-left: 1px solid grey;
+    margin: 0 8px;
+}
+
+.tooltip {
+    display:inline-block;
+    position: relative;
+}
+
+.tooltip:hover {
+    cursor: default;
+}
+
+.tooltip .homeHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .homeHint {
+    visibility: visible;
+}
+
+.tooltip .awayHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .awayHint {
+    visibility: visible;
+}
+
+.tooltip .l5gamesHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .l5gamesHint {
+    visibility: visible;
+}
+
+.tooltip .l5homeHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .l5homeHint {
+    visibility: visible;
+}
+
+.tooltip .l5awayHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .l5awayHint {
+    visibility: visible;
+}
+
+.tooltip .l5vsTeamHint {
+    visibility: hidden;
+    width: fit-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    margin-left: -50%;
+    left: 50%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.tooltip:hover .l5vsTeamHint {
+    visibility: visible;
+}
