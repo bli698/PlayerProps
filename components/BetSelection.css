@@ -1,0 +1,10 @@
+#betSelection {
+    padding: 20px 0 10px 0;
+    border: 3px solid blue;
+}
+
+form {
+    margin: 0px 20px;
+    width: fit-content;
+    height: fit-content;
+}
