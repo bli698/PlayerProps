@@ -8,3 +8,12 @@ form {
     width: fit-content;
     height: fit-content;
 }
+
+.formGroup {
+    display: inline;
+    margin: 0 15px;
+}
+
+.formGroup > select {
+    padding: 0px 2px;
+}

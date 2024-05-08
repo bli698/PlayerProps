@@ -8,11 +8,17 @@ import './App.css';
 
 export default function App() {
   const [sport, setSport] = useState('nba');
-  const [selections, setSelections] = useState({player: "", prop: "", vs: "", line: ""});
+  const [selections, setSelections] = useState({player: "", playerProp: "", team: "", line: ""});
   return (
     <>
       <SportSelection sport={sport} setSport={setSport}/>
-      <BetSelection playerNames={['a','b','c']} selections={selections} setSelections={setSelections}/>
+      <BetSelection 
+        playerNames={['a','b','c']} 
+        propNames={['1','2','3']}
+        teamNames={['Cleveland Caveliers', 'Dallas Mavericks']}
+        lineList={['2.5','3.5','4.5','5.5']}
+        selections={selections} 
+        setSelections={setSelections}/>
     </>
   );
 }
