@@ -16,3 +16,8 @@ body {
     width: 100%;
     display: block;
 }
+
+#chartAndTable { 
+    display: flex;
+    width: 100%;
+}

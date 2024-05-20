@@ -1,0 +1,7 @@
+#barChartWrapper {
+    flex: 5
+}
+
+#barChart {
+    flex: 1;
+}

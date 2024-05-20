@@ -1,10 +1,33 @@
-#dataTable {
-    width: 40%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+#dataTableWrapper {
+    flex: 3;
+    
 }
 
 .divider {
     border-left: 1px solid grey;
     margin: 0 8px;
+}
+
+th {
+    width: fit-content;
+    font-family: "Roboto";
+    font-size: 15px;
+    padding: 0px 2px;
+}
+
+td {
+    font-family: "Roboto";
+    font-size: 12px;
+    width: fit-content;
+    text-wrap: nowrap;
+    padding: 0px 2px;
+}
+
+/* tooltip and hints below */
+.hint {
+    font-size: 12px;
 }
 
 .tooltip {
