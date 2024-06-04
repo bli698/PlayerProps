@@ -24,6 +24,10 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+# firebase
+firebase.json
+.firebaserc
+
 # macOS
 .DS_Store
 *.pem
@@ -33,3 +37,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# my files
+utilities/
+assets/layout.png
+.firebase/
+.github/

@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 #dataTableWrapper {
     flex: 3;
-    
+    justify-self: end;
+}
+
+#dataTable {
+    border: 2px solid black;
+    width: fit-content;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    border-bottom: 2px solid black;
 }
 
 .divider {
@@ -12,17 +20,16 @@
 
 th {
     width: fit-content;
-    font-family: "Roboto";
     font-size: 15px;
     padding: 0px 2px;
 }
 
+
 td {
-    font-family: "Roboto";
     font-size: 12px;
     width: fit-content;
     text-wrap: nowrap;
-    padding: 0px 2px;
+    padding: 2px 2px;
 }
 
 /* tooltip and hints below */

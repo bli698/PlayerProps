@@ -1,6 +1,7 @@
 #betSelection {
     padding: 20px 0 10px 0;
     border: 3px solid blue;
+    margin-bottom: 5px;
 }
 
 option, select {

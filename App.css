@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 html, body{ 
     height: 100%;
     width: 100%;
-  }
+    overflow-y: visible;
+
+}
   
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -20,4 +24,20 @@ body {
 #chartAndTable { 
     display: flex;
     width: 100%;
+}
+
+.oddsAndChart {
+    flex: 5;
+}
+
+#oddsWrapper {
+    margin-left: 20px;
+}
+
+.teamNameSpan {
+    margin-right: 30%;
+}
+
+.oddsSpan {
+    margin: 0 5px;
 }
